@@ -61,10 +61,13 @@ testem.log
 .DS_Store
 Thumbs.db
 
+.angular
+
 #nest
 # Tests
 /coverage
 /.nyc_output
+**/dist
 
 # Logs
 logs
