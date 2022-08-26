@@ -8,11 +8,6 @@ node_modules
 # testing
 coverage
 
-# next.js
-.next/
-out/
-build
-
 # misc
 .DS_Store
 *.pem
@@ -57,6 +52,8 @@ chrome-profiler-events*.json
 testem.log
 /typings
 
+.env
+
 # System Files
 .DS_Store
 Thumbs.db
@@ -77,3 +74,10 @@ pnpm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 lerna-debug.log*
+
+#nuxt
+*.log*
+.nuxt
+.nitro
+.cache
+.output
