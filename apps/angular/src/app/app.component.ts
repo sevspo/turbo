@@ -8,4 +8,6 @@ import { FormBuilder } from '@angular/forms';
 })
 export class AppComponent {
   title = 'angular';
+
+  // comment
 }
